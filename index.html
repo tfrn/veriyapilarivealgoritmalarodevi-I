@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>veri yapıları ve algoritmalar ödevi</title>
+    <style>
+        .odev{
+            background-color: beige;
+            border:1px solid gray;
+        };
+    </style>
+</head>
+<body>
+<h1 class="text-center text-primary mt-2">VERİ YAPILARI VE ALGORİTMALAR -I</h1> 
+<h2 class="text-center text-secondary">Insertion Sort Projesi </h2>
+
+<div class="container">
+    <div class="row">
+
+        <h3 class="text-warning">sorular;</h3>
+        <div class="row col-sm-10 offset-sm-1">
+            <p class="odev">
+                <b>a;</b> <br /><br />
+            
+                [22,27,16,2,18,6] -> Insertion Sort<br /><br />
+            
+                1. Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.<br />
+                2. Big-O gösterimini yazınız.<br />
+                3. Time Complexity: Average case: Aradığımız sayının ortada olması,Worst case: Aradığımız sayının sonda olması, Best case: Aradığımız sayının dizinin en başında olması.<br />
+                4. Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? Yazınız.<br /><br />
+                
+                <b>b;</b><br /><br />
+            
+                [7,3,5,8,2,9,4,15,6] dizisinin Insertion Sort'a göre ilk 4 adımını yazınız.
+            </p>
+        </div>
+        <h3 class="text-warning">cevaplar;</h3>
+        <div class="row col-sm-10 offset-sm-1">
+            <p class="cevaplar" style="background-color:rgb(203, 244, 206);border:1px solid gray">
+                <b>a;</b> <br /><br />
+                1. [22,27,16,2,18,6] =>=> [2,27,16,22,18,6] => [2,6,16,22,18,27] => [2,6,16,18,22,27]<br /><br />
+                2. Big-O (n²)<br /><br />
+                3. Time Complexity: Average case: Aradığımız sayının ortada olması,Worst case: Aradığımız sayının sonda olması, Best case: Aradığımız sayının dizinin en başında olması.<br /><br />
+                4. [2,6,16,<b>18</b>,22,27] olduğu için <i>avarage</i> case olur.<br /><br />
+                <b>b;</b> <br /><br />
+                1. [7,3,5,8,2,9,4,15,6] =>=> 1. adım : [2,3,5,8,7,9,4,15,6] => 2. adım : [2,3,5,8,7,9,4,15,6] => 3. adım : [2,3,4,8,7,9,5,15,6] 4. adım : [2,3,4,5,7,9,8,15,6]  
+            </p>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+</body>
+</html>
